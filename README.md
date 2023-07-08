@@ -2,6 +2,8 @@
 
 Welcome to BearHub, the go-to social networking platform exclusively designed for developers and engineers at the University of Alberta (UofA). BearHub provides a centralized hub where UofA students, faculty, and alumni with a passion for coding, software development, and engineering can connect, collaborate, and showcase their skills.
 
+[Join our Discord server](https://discord.gg/7hDdHT7awA)
+
 ## Features
 
 * __Profile Creation__: Create a comprehensive profile highlighting your technical expertise, projects, and achievements.
