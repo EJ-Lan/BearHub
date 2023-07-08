@@ -25,6 +25,8 @@ If you witness or experience any behavior that violates this Code of Conduct, pl
 
 Anyone who violates the Code of Conduct may be subject to consequences, including but not limited to warnings, temporary bans, or permanent bans, as deemed appropriate by the project maintainers.
 
+[Community Discord](https://discord.gg/7hDdHT7awA): Join our community chat platform and privately message one of the project maintainers. Please provide a clear description of the incident and any relevant information
+
 ## Scope 
 
 This Code of Conduct applies to all project spaces, including GitHub repositories, forums, discussions, events, and any other communication channels associated with BearHub.
