@@ -27,6 +27,7 @@ Make sure you have all the necessary dependencies and tools installed based on t
 We welcome contributions from the UofA developer and engineering community! If you have ideas, bug fixes, or feature implementations, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
 Please ensure that your contributions adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
+Find out more at our [Contributing Page](CONTRIBUTING.md)
 
 ## License
 
@@ -35,3 +36,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 We would like to express our gratitude to the University of Alberta and its vibrant developer and engineering community for their continuous support and inspiration.
+
+We would also like to thank our [Contributers](CONTRIBUTORS.md)
