@@ -27,6 +27,7 @@ Make sure you have all the necessary dependencies and tools installed based on t
 We welcome contributions from the UofA developer and engineering community! If you have ideas, bug fixes, or feature implementations, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
 Please ensure that your contributions adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 Find out more at our [Contributing Page](CONTRIBUTING.md)
 
 ## License
