@@ -28,7 +28,7 @@ We welcome contributions from the UofA developer and engineering community! If y
 
 Please ensure that your contributions adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Find out more at our [Contributing Page](CONTRIBUTING.md)
+Find out more at our [Contributing Page](CONTRIBUTING.md).
 
 ## License
 
@@ -38,4 +38,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 We would like to express our gratitude to the University of Alberta and its vibrant developer and engineering community for their continuous support and inspiration.
 
-We would also like to thank our [Contributers](CONTRIBUTORS.md)
+We would also like to thank our [Contributers](CONTRIBUTORS.md).
