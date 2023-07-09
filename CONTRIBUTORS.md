@@ -1,3 +1,3 @@
 # Contributors
 
-- Ervin Jon Lanada (@EJ-Lan)
+- Ervin Jon Lanada @EJ-Lan
