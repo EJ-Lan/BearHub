@@ -19,7 +19,7 @@ Specifically, Our Goals Include
 3. **Learning and Skill Development**: BearHub provides a platform for engineers and developers to showcase their skills, share their expertise, and learn from others. Through skill repositories, forums, and discussion boards, we encourage continuous learning and skill development.
 4. **Friendship and Collaboration**: Beyond professional connections, BearHub aims to foster a friendly and inclusive environment, enabling individuals to make new friends, forge lasting relationships, and collaborate with fellow enthusiasts on exciting projects.
 
-5. ## Issue Guidlines
+## Issue Guidlines
 
 To report issues or bugs, please follow these guidlines:
 
