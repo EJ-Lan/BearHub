@@ -2,16 +2,24 @@
 {% load static %}
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>BearHub</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel='stylesheet' type ='text/css' media='screen' href='{% static "styles/main.css" %}'>
-    </head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <!-- Icon - IconMonster -->
+        <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
+        <!-- Mumble UI -->
+        <link rel="stylesheet" href="{% static 'uikit/styles/uikit.css' %}" />
+        <!-- BearHub UI -->
+        <link rel="stylesheet" href="{% static 'styles/app.css' %}"" />
+      
+        <title>BearHub - Connect with Developers!</title>
+
     <body>
         {% include 'navbar.html' %}
         
-
         {% block content %}
 
         {% endblock content %}
