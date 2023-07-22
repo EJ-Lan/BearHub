@@ -23,193 +23,37 @@
         </div>
       </div>
     </section>
-    <!-- Search Result: DevList -->
+    <!-- Search Result: BearHub -->
     <section class="devlist">
       <div class="container">
         <div class="grid grid--three">
-          <div class="column card">
-            <div class="dev">
-              <a href="/profile.html" class="card__body">
-                <div class="dev__profile">
-                  <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
-                  <div class="dev__meta">
-                    <h3>Shahriar P. Shuvo</h3>
-                    <h5>FullStack Web Designer & Developer</h5>
-                  </div>
+
+            {% for profile in profiles %}
+            <div class="column card">
+                <div class="dev">
+                <a href="{% url 'user-profile' profile.id %}" class="card__body">
+                    <div class="dev__profile">
+                    <img class="avatar avatar--md" src="{{ profile.profile_image.url }}" alt="image" />
+                    <div class="dev__meta">
+                        <h3>{{profile.name}}</h3>
+                        <h5>{{profile.short_intro|slice:"60"}}</h5>
+                    </div>
+                    </div>
+                    <p class="dev__info">{{profile.bio|slice:"150"}}</p>
+                    <div class="dev__skills">
+
+                    {% for skill in profile.skill_set.all %}
+                    <span class="tag tag--pill tag--main">
+                        <small>{{skill}}</small>
+                    </span>
+                    {% endfor %}
+                    
+                    </div>
+                </a>
                 </div>
-                <p class="dev__info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                  animi, exercitationem molestias nam doloremque architecto odit.
-                </p>
-                <div class="dev__skills">
-                  <span class="tag tag--pill tag--main">
-                    <small>JavaScript</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>React</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>SCSS</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>Nodejs</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>Express</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>GraphQL</small>
-                  </span>
-                </div>
-              </a>
             </div>
-          </div>
-          <div class="column card">
-            <div class="dev">
-              <a href="/profile.html" class="card__body">
-                <div class="dev__profile">
-                  <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/1868782" alt="image" />
-                  <div class="dev__meta">
-                    <h3>Cody Seibert</h3>
-                    <h5>React Developer, Coding Youtuber</h5>
-                  </div>
-                </div>
-                <p class="dev__info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                  animi, exercitationem molestias nam doloremque architecto odit.
-                </p>
-                <div class="dev__skills">
-                  <span class="tag tag--pill tag--main">
-                    <small>Elixir</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>F#</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>.NET</small>
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="column card">
-            <div class="dev">
-              <a href="/profile.html" class="card__body">
-                <div class="dev__profile">
-                  <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/33843378" alt="image" />
-                  <div class="dev__meta">
-                    <h3>Dennis Ivy</h3>
-                    <h5>Python & Django Developer</h5>
-                  </div>
-                </div>
-                <p class="dev__info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                  animi, exercitationem molestias nam doloremque architecto odit.
-                </p>
-                <div class="dev__skills">
-                  <span class="tag tag--pill tag--main">
-                    <small>Python</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>Django</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>Rest API</small>
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="column card">
-            <div class="dev">
-              <a href="/profile.html" class="card__body">
-                <div class="dev__profile">
-                  <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
-                  <div class="dev__meta">
-                    <h3>Shahriar P. Shuvo</h3>
-                    <h5>FullStack Web Designer & Developer</h5>
-                  </div>
-                </div>
-                <p class="dev__info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                  animi, exercitationem molestias nam doloremque architecto odit.
-                </p>
-                <div class="dev__skills">
-                  <span class="tag tag--pill tag--main">
-                    <small>JavaScript</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>React</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>SCSS</small>
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="column card">
-            <div class="dev">
-              <a href="/profile.html" class="card__body">
-                <div class="dev__profile">
-                  <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
-                  <div class="dev__meta">
-                    <h3>Shahriar P. Shuvo</h3>
-                    <h5>FullStack Web Designer & Developer</h5>
-                  </div>
-                </div>
-                <p class="dev__info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                  animi, exercitationem molestias nam doloremque architecto odit.
-                </p>
-                <div class="dev__skills">
-                  <span class="tag tag--pill tag--main">
-                    <small>JavaScript</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>React</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>SCSS</small>
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="column card">
-            <div class="dev">
-              <a href="/profile.html" class="card__body">
-                <div class="dev__profile">
-                  <img class="avatar avatar--md" src="https://avatars.githubusercontent.com/u/22437186" alt="image" />
-                  <div class="dev__meta">
-                    <h3>Shahriar P. Shuvo</h3>
-                    <h5>FullStack Web Designer & Developer</h5>
-                  </div>
-                </div>
-                <p class="dev__info">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ducimus inventore! Sunt,
-                  veniam veritatis? Veritatis placeat, deleniti iure tempore veniam perspiciatis, soluta cupiditate
-                  animi, exercitationem molestias nam doloremque architecto odit.
-                </p>
-                <div class="dev__skills">
-                  <span class="tag tag--pill tag--main">
-                    <small>JavaScript</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>React</small>
-                  </span>
-                  <span class="tag tag--pill tag--main">
-                    <small>SCSS</small>
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
+            {% endfor %}
+
         </div>
       </div>
     </section>
