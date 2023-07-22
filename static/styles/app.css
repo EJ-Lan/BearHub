@@ -25,6 +25,10 @@ img {
   margin: 0 auto;
 }
 
+svg{
+  color: var(--color-main)
+}
+
 /*=======================
   Header Section
 ========================*/
@@ -53,7 +57,7 @@ img {
 }
 
 .header__menuItem > a {
-  color: var(--color-light);
+  color: var(--color-sub-lighter);
   font-weight: 300;
 }
 
@@ -358,6 +362,12 @@ img {
   gap: 1.5rem;
 }
 
+.dev__social a svg {
+  /* Adjust the width and height values to make the logos bigger */
+  width: 32px;
+  height: 32px;
+}
+
 .devInfo {
   margin-bottom: 3rem;
 }
@@ -486,7 +496,7 @@ img {
   Projects Page
 ========================*/
 .projects > .hero-section {
-  background: var(--color-sub-lighter);
+  background: var(--color-main);
   height: 30vh;
 }
 
@@ -495,12 +505,12 @@ img {
 }
 
 .projects .hero-section__box > h2 {
-  color: var(--color-sub);
+  color: var(--color-sub-lighter);
 }
 
 .projects .hero-section__box > h2 > span {
   font-weight: 700;
-  color: var(--color-sub);
+  color: var(--color-sub-lighter);
 }
 
 .projectsList {

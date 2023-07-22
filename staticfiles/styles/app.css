@@ -1,5 +1,5 @@
 :root {
-  --color-sub: #2d2d39;
+  --color-sub: #275D38;
 }
 
 .btn--sub {
@@ -23,6 +23,10 @@ img {
   width: 95%;
   max-width: 85rem;
   margin: 0 auto;
+}
+
+svg{
+  color: var(--color-main)
 }
 
 /*=======================
@@ -53,7 +57,7 @@ img {
 }
 
 .header__menuItem > a {
-  color: var(--color-light);
+  color: var(--color-sub-lighter);
   font-weight: 300;
 }
 
@@ -358,6 +362,12 @@ img {
   gap: 1.5rem;
 }
 
+.dev__social a svg {
+  /* Adjust the width and height values to make the logos bigger */
+  width: 32px;
+  height: 32px;
+}
+
 .devInfo {
   margin-bottom: 3rem;
 }
@@ -373,7 +383,7 @@ img {
 
 .devInfo__subtitle {
   font-size: 2rem;
-  color: var(--color-sub-light);
+  color: var(--color-main);
 }
 
 .devInfo__about,
@@ -390,7 +400,7 @@ img {
 .devSkill__title {
   font-size: 1.65rem;
   font-weight: 500;
-  color: var(--color-sub-light);
+  color: var(--color-sub);
 }
 
 @media screen and (min-width: 700px) {
@@ -510,7 +520,7 @@ img {
   grid-gap: 1rem;
 }
 
-/*========== Projects ==========*/
+
 
 .card {
   display: flex;
