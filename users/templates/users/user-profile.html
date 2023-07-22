@@ -9,10 +9,10 @@
         <div class="column column--1of3">
           <div class="card text-center">
             <div class="card__body dev">
-              <img class="avatar avatar--xl" src="https://avatars.githubusercontent.com/u/33843378" />
-              <h2 class="dev__name">Dennis Ivanov</h2>
-              <p class="dev__title">Expirance FullStack Developer, Youtuber and Instructor</p>
-              <p class="dev__location">Based in Florida, USA</p>
+              <img class="avatar avatar--xl" src="{{ profile.profile_image.url }}" />
+              <h2 class="dev__name">{{profile.name}}</h2>
+              <p class="dev__title">{{profile.short_intro}}</p>
+              <p class="dev__location">{{profile.major}}</p>
               <ul class="dev__social">
                 <li>
                   <a title="Github" href="#" target="_blank"><i class="im im-github"></i></a>
@@ -76,31 +76,31 @@
 
               <h3 class="devInfo__subtitle">Other Skills</h3>
               <div class="devInfo__otherSkills">
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>Figma</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>Vuejs</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>REST API</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>GraphQL</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>TypeScript</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>Webpack</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>NextJS</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>Postgres</small>
                 </span>
-                <span class="tag tag--pill tag--sub tag--lg">
+                <span class="tag tag--pill tag--main tag--lg">
                   <small>MongoDB</small>
                 </span>
               </div>
