@@ -34,7 +34,7 @@ Please ensure that your contributions adhere to the [Code of Conduct](CODE_OF_CO
 Find out more at our [Contributing Page](CONTRIBUTING.md).
 
 ## Author
-[Ervin Jon Lanada](https://github.com/EJ-Lan)
+Ervin Jon Lanada/[@EJ-Lan](https://github.com/EJ-Lan)
 
 ## License
 
