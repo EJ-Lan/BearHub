@@ -17,7 +17,7 @@ Welcome to BearHub, the go-to social networking platform exclusively designed fo
 
 ## Getting Started
 
-To get started with BearHub, follow these steps: (THIS SECTION IS STILL UNDER CONSTRUCTION AS THE BASE PROJECT IS UNFINISHED)
+To get started with BearHub, follow these steps: (STILL UNDER CONSTRUCTION AS THE BASE PROJECT IS UNFINISHED)
 
 1. Clone the repository: git clone https://github.com/EJ-Lan/BearHub.git
 2. Start the development server or set up the necessary environment as per your project requirements.
